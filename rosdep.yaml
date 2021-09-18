@@ -1,0 +1,255 @@
+behavior_tree_action_builder:
+  ubuntu:
+  - ros-galactic-behavior-tree-action-builder
+  - ros-foxy-behavior_tree_action_builder
+  - ros-dashing-behavior_tree_action_builder
+color_names:
+  ubuntu:
+  - ros-galactic-color-names
+  - ros-foxy-color_names
+  - ros-dashing-color_names
+controller_interface:
+  ubuntu:
+  - ros-galactic-controller-interface
+  - ros-foxy-controller_interface
+  - ros-dashing-controller_interface
+controller_manager:
+  ubuntu:
+  - ros-galactic-controller-manager
+  - ros-foxy-controller_manager
+  - ros-dashing-controller_manager
+controller_manager_msgs:
+  ubuntu:
+  - ros-galactic-controller-manager-msgs
+  - ros-foxy-controller_manager_msgs
+  - ros-dashing-controller_manager_msgs
+data_buffer:
+  ubuntu:
+  - ros-galactic-data-buffer
+  - ros-foxy-data_buffer
+  - ros-dashing-data_buffer
+dynamixel_hardware_interface:
+  ubuntu:
+  - ros-galactic-dynamixel-hardware-interface
+  - ros-foxy-dynamixel_hardware_interface
+  - ros-dashing-dynamixel_hardware_interface
+geodesy:
+  ubuntu:
+  - ros-galactic-geodesy
+  - ros-foxy-geodesy
+  - ros-dashing-geodesy
+geographic_conversion:
+  ubuntu:
+  - ros-galactic-geographic-conversion
+  - ros-foxy-geographic_conversion
+  - ros-dashing-geographic_conversion
+geographic_info:
+  ubuntu:
+  - ros-galactic-geographic-info
+  - ros-foxy-geographic_info
+  - ros-dashing-geographic_info
+geographic_msgs:
+  ubuntu:
+  - ros-galactic-geographic-msgs
+  - ros-foxy-geographic_msgs
+  - ros-dashing-geographic_msgs
+geometry_msgs_data_buffer:
+  ubuntu:
+  - ros-galactic-geometry-msgs-data-buffer
+  - ros-foxy-geometry_msgs_data_buffer
+  - ros-dashing-geometry_msgs_data_buffer
+hardware_interface:
+  ubuntu:
+  - ros-galactic-hardware-interface
+  - ros-foxy-hardware_interface
+  - ros-dashing-hardware_interface
+hermite_path_msgs:
+  ubuntu:
+  - ros-galactic-hermite-path-msgs
+  - ros-foxy-hermite_path_msgs
+  - ros-dashing-hermite_path_msgs
+hermite_path_planner:
+  ubuntu:
+  - ros-galactic-hermite-path-planner
+  - ros-foxy-hermite_path_planner
+  - ros-dashing-hermite_path_planner
+hermite_path_planner_bringup:
+  ubuntu:
+  - ros-galactic-hermite-path-planner-bringup
+  - ros-foxy-hermite_path_planner_bringup
+  - ros-dashing-hermite_path_planner_bringup
+image_processing_utils:
+  ubuntu:
+  - ros-galactic-image-processing-utils
+  - ros-foxy-image_processing_utils
+  - ros-dashing-image_processing_utils
+joy_to_twist:
+  ubuntu:
+  - ros-galactic-joy-to-twist
+  - ros-foxy-joy_to_twist
+  - ros-dashing-joy_to_twist
+local_waypoint_server:
+  ubuntu:
+  - ros-galactic-local-waypoint-server
+  - ros-foxy-local_waypoint_server
+  - ros-dashing-local_waypoint_server
+lua_vendor:
+  ubuntu:
+  - ros-galactic-lua-vendor
+  - ros-foxy-lua_vendor
+  - ros-dashing-lua_vendor
+message_synchronizer:
+  ubuntu:
+  - ros-galactic-message-synchronizer
+  - ros-foxy-message_synchronizer
+  - ros-dashing-message_synchronizer
+miniv_control:
+  ubuntu:
+  - ros-galactic-miniv-control
+  - ros-foxy-miniv_control
+  - ros-dashing-miniv_control
+miniv_description:
+  ubuntu:
+  - ros-galactic-miniv-description
+  - ros-foxy-miniv_description
+  - ros-dashing-miniv_description
+navi_sim:
+  ubuntu:
+  - ros-galactic-navi-sim
+  - ros-foxy-navi_sim
+  - ros-dashing-navi_sim
+nmea_gps_driver:
+  ubuntu:
+  - ros-galactic-nmea-gps-driver
+  - ros-foxy-nmea_gps_driver
+  - ros-dashing-nmea_gps_driver
+nmea_to_geopose:
+  ubuntu:
+  - ros-galactic-nmea-to-geopose
+  - ros-foxy-nmea_to_geopose
+  - ros-dashing-nmea_to_geopose
+odom_frame_publisher:
+  ubuntu:
+  - ros-galactic-odom-frame-publisher
+  - ros-foxy-odom_frame_publisher
+  - ros-dashing-odom_frame_publisher
+ouxt_common:
+  ubuntu:
+  - ros-galactic-ouxt-common
+  - ros-foxy-ouxt_common
+  - ros-dashing-ouxt_common
+ouxt_lint_common:
+  ubuntu:
+  - ros-galactic-ouxt-lint-common
+  - ros-foxy-ouxt_lint_common
+  - ros-dashing-ouxt_lint_common
+pcl_apps:
+  ubuntu:
+  - ros-galactic-pcl-apps
+  - ros-foxy-pcl_apps
+  - ros-dashing-pcl_apps
+pcl_apps_msgs:
+  ubuntu:
+  - ros-galactic-pcl-apps-msgs
+  - ros-foxy-pcl_apps_msgs
+  - ros-dashing-pcl_apps_msgs
+perception_bringup:
+  ubuntu:
+  - ros-galactic-perception-bringup
+  - ros-foxy-perception_bringup
+  - ros-dashing-perception_bringup
+playstation_controller_drivers:
+  ubuntu:
+  - ros-galactic-playstation-controller-drivers
+  - ros-foxy-playstation_controller_drivers
+  - ros-dashing-playstation_controller_drivers
+pure_pursuit_planner:
+  ubuntu:
+  - ros-galactic-pure-pursuit-planner
+  - ros-foxy-pure_pursuit_planner
+  - ros-dashing-pure_pursuit_planner
+quaternion_operation:
+  ubuntu:
+  - ros-galactic-quaternion-operation
+  - ros-foxy-quaternion_operation
+  - ros-dashing-quaternion_operation
+realsense_hardware_interface:
+  ubuntu:
+  - ros-galactic-realsense-hardware-interface
+  - ros-foxy-realsense_hardware_interface
+  - ros-dashing-realsense_hardware_interface
+robotx_behavior_tree:
+  ubuntu:
+  - ros-galactic-robotx-behavior-tree
+  - ros-foxy-robotx_behavior_tree
+  - ros-dashing-robotx_behavior_tree
+robotx_ekf:
+  ubuntu:
+  - ros-galactic-robotx-ekf
+  - ros-foxy-robotx_ekf
+  - ros-dashing-robotx_ekf
+ros2_control:
+  ubuntu:
+  - ros-galactic-ros2-control
+  - ros-foxy-ros2_control
+  - ros-dashing-ros2_control
+ros2_control_test_assets:
+  ubuntu:
+  - ros-galactic-ros2-control-test-assets
+  - ros-foxy-ros2_control_test_assets
+  - ros-dashing-ros2_control_test_assets
+ros2controlcli:
+  ubuntu:
+  - ros-galactic-ros2controlcli
+  - ros-foxy-ros2controlcli
+  - ros-dashing-ros2controlcli
+rosboard:
+  ubuntu:
+  - ros-galactic-rosboard
+  - ros-foxy-rosboard
+  - ros-dashing-rosboard
+rospy2:
+  ubuntu:
+  - ros-galactic-rospy2
+  - ros-foxy-rospy2
+  - ros-dashing-rospy2
+scan_segmentation:
+  ubuntu:
+  - ros-galactic-scan-segmentation
+  - ros-foxy-scan_segmentation
+  - ros-dashing-scan_segmentation
+sdl2_vendor2:
+  ubuntu:
+  - ros-galactic-sdl2-vendor2
+  - ros-foxy-sdl2_vendor2
+  - ros-dashing-sdl2_vendor2
+sol_vendor:
+  ubuntu:
+  - ros-galactic-sol-vendor
+  - ros-foxy-sol_vendor
+  - ros-dashing-sol_vendor
+tcp_sender:
+  ubuntu:
+  - ros-galactic-tcp-sender
+  - ros-foxy-tcp_sender
+  - ros-dashing-tcp_sender
+transmission_interface:
+  ubuntu:
+  - ros-galactic-transmission-interface
+  - ros-foxy-transmission_interface
+  - ros-dashing-transmission_interface
+usv_controller:
+  ubuntu:
+  - ros-galactic-usv-controller
+  - ros-foxy-usv_controller
+  - ros-dashing-usv_controller
+velocity_planner:
+  ubuntu:
+  - ros-galactic-velocity-planner
+  - ros-foxy-velocity_planner
+  - ros-dashing-velocity_planner
+wamv_description:
+  ubuntu:
+  - ros-galactic-wamv-description
+  - ros-foxy-wamv_description
+  - ros-dashing-wamv_description
