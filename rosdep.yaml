@@ -238,6 +238,11 @@ transmission_interface:
   - ros-galactic-transmission-interface
   - ros-foxy-transmission_interface
   - ros-dashing-transmission_interface
+unisim_ros2_control:
+  ubuntu:
+  - ros-galactic-unisim-ros2-control
+  - ros-foxy-unisim_ros2_control
+  - ros-dashing-unisim_ros2_control
 usv_controller:
   ubuntu:
   - ros-galactic-usv-controller
