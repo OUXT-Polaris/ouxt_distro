@@ -58,6 +58,81 @@ geometry_msgs_data_buffer:
   - ros-galactic-geometry-msgs-data-buffer
   - ros-foxy-geometry_msgs_data_buffer
   - ros-dashing-geometry_msgs_data_buffer
+grid_map:
+  ubuntu:
+  - ros-galactic-grid-map
+  - ros-foxy-grid_map
+  - ros-dashing-grid_map
+grid_map_cmake_helpers:
+  ubuntu:
+  - ros-galactic-grid-map-cmake-helpers
+  - ros-foxy-grid_map_cmake_helpers
+  - ros-dashing-grid_map_cmake_helpers
+grid_map_core:
+  ubuntu:
+  - ros-galactic-grid-map-core
+  - ros-foxy-grid_map_core
+  - ros-dashing-grid_map_core
+grid_map_costmap_2d:
+  ubuntu:
+  - ros-galactic-grid-map-costmap-2d
+  - ros-foxy-grid_map_costmap_2d
+  - ros-dashing-grid_map_costmap_2d
+grid_map_cv:
+  ubuntu:
+  - ros-galactic-grid-map-cv
+  - ros-foxy-grid_map_cv
+  - ros-dashing-grid_map_cv
+grid_map_demos:
+  ubuntu:
+  - ros-galactic-grid-map-demos
+  - ros-foxy-grid_map_demos
+  - ros-dashing-grid_map_demos
+grid_map_filters:
+  ubuntu:
+  - ros-galactic-grid-map-filters
+  - ros-foxy-grid_map_filters
+  - ros-dashing-grid_map_filters
+grid_map_loader:
+  ubuntu:
+  - ros-galactic-grid-map-loader
+  - ros-foxy-grid_map_loader
+  - ros-dashing-grid_map_loader
+grid_map_msgs:
+  ubuntu:
+  - ros-galactic-grid-map-msgs
+  - ros-foxy-grid_map_msgs
+  - ros-dashing-grid_map_msgs
+grid_map_octomap:
+  ubuntu:
+  - ros-galactic-grid-map-octomap
+  - ros-foxy-grid_map_octomap
+  - ros-dashing-grid_map_octomap
+grid_map_pcl:
+  ubuntu:
+  - ros-galactic-grid-map-pcl
+  - ros-foxy-grid_map_pcl
+  - ros-dashing-grid_map_pcl
+grid_map_ros:
+  ubuntu:
+  - ros-galactic-grid-map-ros
+  - ros-foxy-grid_map_ros
+  - ros-dashing-grid_map_ros
+grid_map_rviz_plugin:
+  ubuntu:
+  - ros-galactic-grid-map-rviz-plugin
+  - ros-foxy-grid_map_rviz_plugin
+  - ros-dashing-grid_map_rviz_plugin
+grid_map_sdf:
+  ubuntu:
+  - ros-galactic-grid-map-sdf
+  - ros-foxy-grid_map_sdf
+  - ros-dashing-grid_map_sdf
+grid_map_visualization:
+  ubuntu:
+  - ros-galactic-grid-map-visualization
+  - ros-foxy-grid_map_visualization
+  - ros-dashing-grid_map_visualization
 hardware_interface:
   ubuntu:
   - ros-galactic-hardware-interface
@@ -183,6 +258,11 @@ robotx_behavior_tree:
   - ros-galactic-robotx-behavior-tree
   - ros-foxy-robotx_behavior_tree
   - ros-dashing-robotx_behavior_tree
+robotx_bt_planner:
+  ubuntu:
+  - ros-galactic-robotx-bt-planner
+  - ros-foxy-robotx_bt_planner
+  - ros-dashing-robotx_bt_planner
 robotx_ekf:
   ubuntu:
   - ros-galactic-robotx-ekf
