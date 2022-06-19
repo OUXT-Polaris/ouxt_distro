@@ -26,8 +26,8 @@ jobs:
         run: echo yaml file://$GITHUB_WORKSPACE/ouxt_distro/rosdep.yaml >> /etc/ros/rosdep/sources.list.d/10-local.list
       - name: rosdep update and apt update
         run: rosdep update && apt update
-      - name: check dependency of your package
-        run: rosdep check --from-paths ${{ matrix.package[1] }} --ignore-src --rosdistro=${{ matrix.rosdistro }}
+      - name: install depends
+        run: rosdep install --iry --from-paths ${{ matrix.package[1] }} --ignore-src --rosdistro=${{ matrix.rosdistro }}
       - name: bloom generate
         run: cd ${{ matrix.package[1] }} && bloom-generate rosdebian --ros-distro ${{ matrix.rosdistro }}
       - name: generate debian package
