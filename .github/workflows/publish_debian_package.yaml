@@ -24,8 +24,8 @@ jobs:
           path: ${{ matrix.package[1] }}
       - name: update rosdep list
         run: echo yaml file://$GITHUB_WORKSPACE/ouxt_distro/rosdep.yaml >> /etc/ros/rosdep/sources.list.d/10-local.list
-      - name: rosdep update
-        run: rosdep update
+      - name: rosdep update and apt update
+        run: rosdep update && apt update
       - name: check dependency of your package
         run: rosdep check --from-paths ${{ matrix.package[1] }} --ignore-src --rosdistro=${{ matrix.rosdistro }}
       - name: bloom generate
