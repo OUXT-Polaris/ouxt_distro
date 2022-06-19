@@ -27,7 +27,7 @@ jobs:
       - name: rosdep update and apt update
         run: rosdep update && apt update
       - name: install depends
-        run: rosdep install --iry --from-paths ${{ matrix.package[1] }} --ignore-src --rosdistro=${{ matrix.rosdistro }}
+        run: rosdep install -iry --from-paths ${{ matrix.package[1] }} --ignore-src --rosdistro=${{ matrix.rosdistro }}
       - name: bloom generate
         run: cd ${{ matrix.package[1] }} && bloom-generate rosdebian --ros-distro ${{ matrix.rosdistro }}
       - name: generate debian package
