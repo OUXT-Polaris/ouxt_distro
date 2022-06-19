@@ -1,0 +1,36 @@
+name: publish_debian_package
+on:
+  schedule:
+  - cron: 0 0 * * *
+  pull_request:
+    paths:
+      - "ansible/**"
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        rosdistro: [foxy, galactic]
+        package:
+          - [OUXT-Polaris, ouxt_common]
+    container: wamvtan/debian_package_builder:${{ matrix.rosdistro }}
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          path: ouxt_distro
+      - uses: actions/checkout@v2
+        with:
+          repository: ${{ matrix.package[0] }}/${{ matrix.package[1] }}
+          path: ${{ matrix.package[1] }}
+      - name: update rosdep list
+        run: echo yaml file://$GITHUB_WORKSPACE/ouxt_distro/rosdep.yaml >> /etc/ros/rosdep/sources.list.d/10-local.list
+      - name: rosdep update
+        run: rosdep update
+      - name: check dependency of your package
+        run: rosdep check --from-paths ${{ matrix.package[1] }} --ignore-src --rosdistro=${{ matrix.rosdistro }}
+      - name: bloom generate
+        run: cd ${{ matrix.package[1] }} && bloom-generate rosdebian --ros-distro ${{ matrix.rosdistro }}
+      - name: generate debian package
+        run: cd ${{ matrix.package[1] }} && fakeroot debian/rules binary
