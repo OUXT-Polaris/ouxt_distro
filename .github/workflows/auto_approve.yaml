@@ -5,7 +5,7 @@ permissions:
   pull-requests: write
 
 jobs:
-  dependabot:
+  auto-approve:
     runs-on: ubuntu-latest
     if: ${{ github.actor == 'wam-v-tan' }}
     steps:
