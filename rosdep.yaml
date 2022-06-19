@@ -1,8 +1,8 @@
 behavior_tree_action_builder:
   ubuntu:
-  - ros-galactic-behavior-tree-action-builder
-  - ros-foxy-behavior_tree_action_builder
-  - ros-dashing-behavior_tree_action_builder
+    - ros-galactic-behavior-tree-action-builder
+    - ros-foxy-behavior_tree_action_builder
+    - ros-dashing-behavior_tree_action_builder
 data_buffer:
   ubuntu:
   - ros-galactic-data-buffer
