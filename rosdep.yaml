@@ -3,26 +3,6 @@ behavior_tree_action_builder:
   - ros-galactic-behavior-tree-action-builder
   - ros-foxy-behavior_tree_action_builder
   - ros-dashing-behavior_tree_action_builder
-color_names:
-  ubuntu:
-  - ros-galactic-color-names
-  - ros-foxy-color_names
-  - ros-dashing-color_names
-controller_interface:
-  ubuntu:
-  - ros-galactic-controller-interface
-  - ros-foxy-controller_interface
-  - ros-dashing-controller_interface
-controller_manager:
-  ubuntu:
-  - ros-galactic-controller-manager
-  - ros-foxy-controller_manager
-  - ros-dashing-controller_manager
-controller_manager_msgs:
-  ubuntu:
-  - ros-galactic-controller-manager-msgs
-  - ros-foxy-controller_manager_msgs
-  - ros-dashing-controller_manager_msgs
 data_buffer:
   ubuntu:
   - ros-galactic-data-buffer
@@ -133,11 +113,11 @@ grid_map_visualization:
   - ros-galactic-grid-map-visualization
   - ros-foxy-grid_map_visualization
   - ros-dashing-grid_map_visualization
-hardware_interface:
+groot:
   ubuntu:
-  - ros-galactic-hardware-interface
-  - ros-foxy-hardware_interface
-  - ros-dashing-hardware_interface
+  - ros-galactic-groot
+  - ros-foxy-groot
+  - ros-dashing-groot
 hermite_path_msgs:
   ubuntu:
   - ros-galactic-hermite-path-msgs
@@ -153,6 +133,11 @@ hermite_path_planner_bringup:
   - ros-galactic-hermite-path-planner-bringup
   - ros-foxy-hermite_path_planner_bringup
   - ros-dashing-hermite_path_planner_bringup
+hungarian_solver:
+  ubuntu:
+  - ros-galactic-hungarian-solver
+  - ros-foxy-hungarian_solver
+  - ros-dashing-hungarian_solver
 image_processing_utils:
   ubuntu:
   - ros-galactic-image-processing-utils
@@ -168,11 +153,6 @@ local_waypoint_server:
   - ros-galactic-local-waypoint-server
   - ros-foxy-local_waypoint_server
   - ros-dashing-local_waypoint_server
-lua_vendor:
-  ubuntu:
-  - ros-galactic-lua-vendor
-  - ros-foxy-lua_vendor
-  - ros-dashing-lua_vendor
 message_synchronizer:
   ubuntu:
   - ros-galactic-message-synchronizer
@@ -198,6 +178,11 @@ nmea_gps_driver:
   - ros-galactic-nmea-gps-driver
   - ros-foxy-nmea_gps_driver
   - ros-dashing-nmea_gps_driver
+nmea_hardware_interface:
+  ubuntu:
+  - ros-galactic-nmea-hardware-interface
+  - ros-foxy-nmea_hardware_interface
+  - ros-dashing-nmea_hardware_interface
 nmea_to_geopose:
   ubuntu:
   - ros-galactic-nmea-to-geopose
@@ -208,16 +193,6 @@ odom_frame_publisher:
   - ros-galactic-odom-frame-publisher
   - ros-foxy-odom_frame_publisher
   - ros-dashing-odom_frame_publisher
-ouxt_common:
-  ubuntu:
-  - ros-galactic-ouxt-common
-  - ros-foxy-ouxt_common
-  - ros-dashing-ouxt_common
-ouxt_lint_common:
-  ubuntu:
-  - ros-galactic-ouxt-lint-common
-  - ros-foxy-ouxt_lint_common
-  - ros-dashing-ouxt_lint_common
 pcl_apps:
   ubuntu:
   - ros-galactic-pcl-apps
@@ -233,6 +208,16 @@ perception_bringup:
   - ros-galactic-perception-bringup
   - ros-foxy-perception_bringup
   - ros-dashing-perception_bringup
+perception_camera_driver:
+  ubuntu:
+  - ros-galactic-perception-camera-driver
+  - ros-foxy-perception_camera_driver
+  - ros-dashing-perception_camera_driver
+perception_msgs:
+  ubuntu:
+  - ros-galactic-perception-msgs
+  - ros-foxy-perception_msgs
+  - ros-dashing-perception_msgs
 playstation_controller_drivers:
   ubuntu:
   - ros-galactic-playstation-controller-drivers
@@ -243,16 +228,16 @@ pure_pursuit_planner:
   - ros-galactic-pure-pursuit-planner
   - ros-foxy-pure_pursuit_planner
   - ros-dashing-pure_pursuit_planner
-quaternion_operation:
-  ubuntu:
-  - ros-galactic-quaternion-operation
-  - ros-foxy-quaternion_operation
-  - ros-dashing-quaternion_operation
 realsense_hardware_interface:
   ubuntu:
   - ros-galactic-realsense-hardware-interface
   - ros-foxy-realsense_hardware_interface
   - ros-dashing-realsense_hardware_interface
+robotx_behavior_msgs:
+  ubuntu:
+  - ros-galactic-robotx-behavior-msgs
+  - ros-foxy-robotx_behavior_msgs
+  - ros-dashing-robotx_behavior_msgs
 robotx_behavior_tree:
   ubuntu:
   - ros-galactic-robotx-behavior-tree
@@ -263,26 +248,26 @@ robotx_bt_planner:
   - ros-galactic-robotx-bt-planner
   - ros-foxy-robotx_bt_planner
   - ros-dashing-robotx_bt_planner
+robotx_communication:
+  ubuntu:
+  - ros-galactic-robotx-communication
+  - ros-foxy-robotx_communication
+  - ros-dashing-robotx_communication
+robotx_costmap_calculator:
+  ubuntu:
+  - ros-galactic-robotx-costmap-calculator
+  - ros-foxy-robotx_costmap_calculator
+  - ros-dashing-robotx_costmap_calculator
 robotx_ekf:
   ubuntu:
   - ros-galactic-robotx-ekf
   - ros-foxy-robotx_ekf
   - ros-dashing-robotx_ekf
-ros2_control:
+robotx_msgs:
   ubuntu:
-  - ros-galactic-ros2-control
-  - ros-foxy-ros2_control
-  - ros-dashing-ros2_control
-ros2_control_test_assets:
-  ubuntu:
-  - ros-galactic-ros2-control-test-assets
-  - ros-foxy-ros2_control_test_assets
-  - ros-dashing-ros2_control_test_assets
-ros2controlcli:
-  ubuntu:
-  - ros-galactic-ros2controlcli
-  - ros-foxy-ros2controlcli
-  - ros-dashing-ros2controlcli
+  - ros-galactic-robotx-msgs
+  - ros-foxy-robotx_msgs
+  - ros-dashing-robotx_msgs
 rosboard:
   ubuntu:
   - ros-galactic-rosboard
@@ -303,21 +288,11 @@ sdl2_vendor2:
   - ros-galactic-sdl2-vendor2
   - ros-foxy-sdl2_vendor2
   - ros-dashing-sdl2_vendor2
-sol_vendor:
-  ubuntu:
-  - ros-galactic-sol-vendor
-  - ros-foxy-sol_vendor
-  - ros-dashing-sol_vendor
 tcp_sender:
   ubuntu:
   - ros-galactic-tcp-sender
   - ros-foxy-tcp_sender
   - ros-dashing-tcp_sender
-transmission_interface:
-  ubuntu:
-  - ros-galactic-transmission-interface
-  - ros-foxy-transmission_interface
-  - ros-dashing-transmission_interface
 unisim_ros2_control:
   ubuntu:
   - ros-galactic-unisim-ros2-control
@@ -333,6 +308,11 @@ velocity_planner:
   - ros-galactic-velocity-planner
   - ros-foxy-velocity_planner
   - ros-dashing-velocity_planner
+wamv_control:
+  ubuntu:
+  - ros-galactic-wamv-control
+  - ros-foxy-wamv_control
+  - ros-dashing-wamv_control
 wamv_description:
   ubuntu:
   - ros-galactic-wamv-description
