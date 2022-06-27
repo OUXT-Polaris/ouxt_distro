@@ -29,6 +29,6 @@ jobs:
       - name: install depends
         run: rosdep install -iry --from-paths ${{ matrix.package[1] }} --ignore-src --rosdistro=${{ matrix.rosdistro }}
       - name: bloom generate
-        run: cd ${{ matrix.package[1] }} && bloom-generate rosdebian --ros-distro ${{ matrix.rosdistro }}
+        run: colcon list -t -p | xargs -L 1 bash -c 'cd "$0" && bloom-generate rosdebian --ros-distro ${{ matrix.rosdistro }}'
       - name: generate debian package
-        run: cd ${{ matrix.package[1] }} && fakeroot debian/rules binary
+        run: colcon list -t -p | xargs -L 1 bash -c 'cd "$0" && fakeroot debian/rules binary'
