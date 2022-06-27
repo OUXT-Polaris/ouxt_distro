@@ -34,5 +34,29 @@ jobs:
         run: colcon list -t -p | xargs -L 1 bash -c 'cd "$0" && fakeroot debian/rules binary'
       - uses: actions/upload-artifact@v3
         with:
-          name: ${{ matrix.package[1] }}
+          name: packages
           path: ${{ matrix.package[1] }}/*.deb
+  publish_to_apt_repo:
+    runs-on: ubuntu-latest
+    needs: generate
+    steps:
+      - uses: actions/download-artifact@v3
+        with:
+          name: packages
+      - name: get debian package lists
+        id: get_debian_package_lists
+        run: |
+          list=$(ls -1)
+          echo "::set-output name=packages::$list"
+      - uses: jrandiny/apt-repo-action@v1
+        with:
+          github_token: ${{ secrets.WAMV_TAN_BOT_SECRET }}
+          arch: |
+            amd64
+          version: |
+            focal
+          file: ${{ steps.get_debian_package_lists.outputs.packages }}
+          file_target_version: focal
+          public_key: ${{ secrets.OUXT_APT_REPO_PUBLIC_KEY }}
+          private_key: ${{ secrets.OUXT_APT_REPO_PASSPHRASE }}
+          key_passphrase: ${{ secrets.OUXT_APT_REPO_PASSPHRASE }}
