@@ -55,7 +55,11 @@ jobs:
             amd64
           repo_supported_version: |
             focal
-          file: ${{ steps.get_debian_package_lists.outputs.packages }}
+          file: |
+            ros-foxy-ouxt-common_0.0.8-0focal_amd64.deb
+            ros-foxy-ouxt-lint-common_0.0.8-0focal_amd64.deb
+            ros-galactic-ouxt-common_0.0.8-0focal_amd64.deb
+            ros-galactic-ouxt-lint-common_0.0.8-0focal_amd64.deb
           file_target_version: focal
           public_key: ${{ secrets.OUXT_APT_REPO_PUBLIC_KEY }}
           private_key: ${{ secrets.OUXT_APT_REPO_PASSPHRASE }}
