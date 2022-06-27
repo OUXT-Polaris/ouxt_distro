@@ -1,7 +1,5 @@
 name: publish_debian_package
 on:
-  schedule:
-  - cron: 0 0 * * *
   pull_request:
   workflow_dispatch:
 
@@ -36,18 +34,25 @@ jobs:
         with:
           name: packages
           path: ${{ matrix.package[1] }}/*.deb
-  publish_to_apt_repo:
+  get_package_list:
     runs-on: ubuntu-latest
     needs: generate
     steps:
       - uses: actions/download-artifact@v3
         with:
           name: packages
-      - name: get debian package lists
-        id: get_debian_package_lists
-        run: |
-          ls -I packages.txt -1 > packages.txt
-          echo ::set-output name=packages::$(cat packages.txt)
+      - uses: jitterbit/get-changed-files@v1
+        id: get_debian_packages
+        with:
+          format: 'json'
+  publish_apt_package:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        package:
+          - []
+    needs: get_package_list
+    steps:
       - uses: jrandiny/apt-repo-action@master
         with:
           github_token: ${{ secrets.WAMV_TAN_BOT_SECRET }}
@@ -55,11 +60,7 @@ jobs:
             amd64
           repo_supported_version: |
             focal
-          file: |
-            ros-foxy-ouxt-common_0.0.8-0focal_amd64.deb
-            ros-foxy-ouxt-lint-common_0.0.8-0focal_amd64.deb
-            ros-galactic-ouxt-common_0.0.8-0focal_amd64.deb
-            ros-galactic-ouxt-lint-common_0.0.8-0focal_amd64.deb
+          file: ${{ steps.get_debian_package_lists.outputs.packages }}
           file_target_version: focal
           public_key: ${{ secrets.OUXT_APT_REPO_PUBLIC_KEY }}
           private_key: ${{ secrets.OUXT_APT_REPO_PASSPHRASE }}
