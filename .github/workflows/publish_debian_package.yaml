@@ -67,7 +67,7 @@ jobs:
           repo_supported_arch: amd64
           repo_supported_version: focal
           file: ${{ matrix.package }}
-          file_target_version: focal
-#          public_key: ${{ secrets.OUXT_APT_REPO_PUBLIC_KEY }}
-          private_key: ${{ secrets.OUXT_APT_REPO_PRIVATE_KEY }}
+          file_target_version: 0.0.8
           key_passphrase: ${{ secrets.OUXT_APT_REPO_PASSPHRASE }}
+          public_key: ${{ secrets.OUXT_APT_REPO_PUBLIC_KEY }}
+          private_key: ${{ secrets.OUXT_APT_REPO_PRIVATE_KEY }}
