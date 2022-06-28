@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        rosdistro: [foxy]
+        rosdistro: [galactic]
         package:
           - [OUXT-Polaris, ouxt_common]
     container: wamvtan/debian_package_builder:${{ matrix.rosdistro }}
