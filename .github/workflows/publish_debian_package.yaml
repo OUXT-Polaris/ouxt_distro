@@ -36,9 +36,25 @@ jobs:
         with:
           name: packages
           path: ${{ matrix.package[1] }}/*.deb
-  publish_to_apt_repo:
+  get_package_lists:
     runs-on: ubuntu-latest
     needs: generate
+    steps:
+      - uses: actions/download-artifact@v3
+        with:
+          name: packages
+      - name: get debian package lists
+        id: get_debian_package_lists
+        run: |
+          packages=$(ls | jq -R -s -c 'split("\n")[:-1]')
+          echo "::set-output name=packages::${packages}"
+  publish_to_apt_repo:
+    runs-on: ubuntu-latest
+    needs: get_package_lists
+    strategy:
+      fail-fast: false
+      matrix:
+        packages: ${{fromJson(needs.get_package_lists.outputs.packages)}}
     steps:
       - uses: actions/download-artifact@v3
         with:
