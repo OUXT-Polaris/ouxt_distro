@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        rosdistro: [foxy, galactic]
+        rosdistro: [foxy]
         package:
           - [OUXT-Polaris, ouxt_common]
     container: wamvtan/debian_package_builder:${{ matrix.rosdistro }}
@@ -69,5 +69,5 @@ jobs:
           file: ${{ matrix.package }}
           file_target_version: focal
           public_key: ${{ secrets.OUXT_APT_REPO_PUBLIC_KEY }}
-          private_key: ${{ secrets.OUXT_APT_REPO_PASSPHRASE }}
+          private_key: ${{ secrets.OUXT_APT_REPO_PRIVATE_KEY }}
           key_passphrase: ${{ secrets.OUXT_APT_REPO_PASSPHRASE }}
