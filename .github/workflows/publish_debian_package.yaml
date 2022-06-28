@@ -54,16 +54,11 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        packages: ${{fromJson(needs.get_package_lists.outputs.packages)}}
+        package: ${{fromJson(needs.get_package_lists.outputs.packages)}}
     steps:
       - uses: actions/download-artifact@v3
         with:
           name: packages
-      - name: get debian package lists
-        id: get_debian_package_lists
-        run: |
-          ls -I packages.txt -1 > packages.txt
-          echo ::set-output name=packages::$(cat packages.txt)
       - uses: jrandiny/apt-repo-action@master
         with:
           github_token: ${{ secrets.WAMV_TAN_BOT_SECRET }}
@@ -72,10 +67,7 @@ jobs:
           repo_supported_version: |
             focal
           file: |
-            ros-foxy-ouxt-common_0.0.8-0focal_amd64.deb
-            ros-foxy-ouxt-lint-common_0.0.8-0focal_amd64.deb
-            ros-galactic-ouxt-common_0.0.8-0focal_amd64.deb
-            ros-galactic-ouxt-lint-common_0.0.8-0focal_amd64.deb
+            ${{ matrix.package }}
           file_target_version: focal
           public_key: ${{ secrets.OUXT_APT_REPO_PUBLIC_KEY }}
           private_key: ${{ secrets.OUXT_APT_REPO_PASSPHRASE }}
