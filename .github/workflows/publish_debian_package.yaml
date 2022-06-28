@@ -39,6 +39,8 @@ jobs:
   get_package_lists:
     runs-on: ubuntu-latest
     needs: generate
+    outputs:
+      packages: ${{ steps.get_debian_package_lists.outputs.packages }}
     steps:
       - uses: actions/download-artifact@v3
         with:
