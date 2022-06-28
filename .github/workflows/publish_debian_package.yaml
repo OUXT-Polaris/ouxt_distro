@@ -66,8 +66,8 @@ jobs:
           github_token: ${{ secrets.WAMV_TAN_BOT_SECRET }}
           repo_supported_arch: amd64
           repo_supported_version: focal
+          file_target_version: focal
           file: ${{ matrix.package }}
-          file_target_version: 0.0.8
           key_passphrase: ${{ secrets.OUXT_APT_REPO_PASSPHRASE }}
           public_key: ${{ secrets.OUXT_APT_REPO_PUBLIC_KEY }}
           private_key: ${{ secrets.OUXT_APT_REPO_PRIVATE_KEY }}
