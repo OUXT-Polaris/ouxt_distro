@@ -3,6 +3,11 @@ behavior_tree_action_builder:
   - ros-galactic-behavior-tree-action-builder
   - ros-foxy-behavior_tree_action_builder
   - ros-dashing-behavior_tree_action_builder
+boost_geometry_util:
+  ubuntu:
+  - ros-galactic-boost-geometry-util
+  - ros-foxy-boost_geometry_util
+  - ros-dashing-boost_geometry_util
 data_buffer:
   ubuntu:
   - ros-galactic-data-buffer
