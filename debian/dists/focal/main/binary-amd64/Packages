@@ -1,0 +1,30 @@
+Package: ros-galactic-ouxt-common
+Version: 0.0.8-0focal
+Architecture: amd64
+Maintainer: Masaya Kataoka <ms.kataoka@gmail.com>
+Installed-Size: 41
+Depends: ros-galactic-ouxt-lint-common
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-galactic-ouxt-common/ros-galactic-ouxt-common_0.0.8-0focal_amd64.deb
+Size: 5288
+SHA256: 25a7fdadf1d1cd9911da3e9be946f1f54e287a2d4735530fec73407ced89e4c9
+SHA1: 6f059ef55ed63963608866f7ac8b45a4bb220bb0
+MD5sum: c5b7e09d1b68cfa08ac4769e1af9a73b
+Description: common settings for OUXT Polaris ROS2 packages
+
+Package: ros-galactic-ouxt-lint-common
+Version: 0.0.8-0focal
+Architecture: amd64
+Maintainer: Masaya Kataoka <ms.kataoka@gmail.com>
+Installed-Size: 45
+Depends: ros-galactic-ament-cmake-clang-format, ros-galactic-ament-cmake-copyright, ros-galactic-ament-cmake-pep257, ros-galactic-ament-cmake-xmllint
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-galactic-ouxt-lint-common/ros-galactic-ouxt-lint-common_0.0.8-0focal_amd64.deb
+Size: 6300
+SHA256: 08aab619bc163af420f9dbb18331a2e96de0e8f625a99e88e42d9c7ae36bdb4b
+SHA1: 742993f9aaebbedcd44d34baa3e0a0cf3fdcf02d
+MD5sum: 603c849a2ab0b5b62bae87f4880fc952
+Description: common linter settings for OUXT Polaris ROS2 packages
+

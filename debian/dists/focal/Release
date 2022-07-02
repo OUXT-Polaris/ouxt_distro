@@ -1,0 +1,19 @@
+Origin: https://ouxt-polaris.github.io/ouxt_distro/
+Label: OUXT-Polaris.github.io/ouxt_distro
+Codename: focal
+Date: Sat, 02 Jul 2022 13:24:35 UTC
+Architectures: amd64
+Components: main
+Description: PPA for OUXT Polaris
+MD5Sum:
+ 3d2ee4a5ba56f1dbbee0b45120215d57 1223 main/binary-amd64/Packages
+ 9d177c18d8666771d869f2b1c368d4dc 544 main/binary-amd64/Packages.gz
+ d8f81b9fc4fdd3f3ad9e46335891d0f3 164 main/binary-amd64/Release
+SHA1:
+ 1ef8ba42d40550e30498152c2382e2dd40518990 1223 main/binary-amd64/Packages
+ 5d800c8b4eb5629c87df5252a4a802bd6c2e1b3c 544 main/binary-amd64/Packages.gz
+ c4b260eedabd070b9b1a1a4be7f6a17456ce986f 164 main/binary-amd64/Release
+SHA256:
+ 2c699efcb66bebd231b5c67b080da95e348f453d0684fc7c47de8040d838bcac 1223 main/binary-amd64/Packages
+ d948a1d5be081d188e1d4d797e920e9bdc280fb2f8965576db4375142b2b4c2d 544 main/binary-amd64/Packages.gz
+ 2104ea8f42a7d4026550439ee55f8b92afaa1a26475bdc6c5750f8d09ddf7beb 164 main/binary-amd64/Release

@@ -1,0 +1,6 @@
+Origin: https://ouxt-polaris.github.io/ouxt_distro/
+Label: OUXT-Polaris.github.io/ouxt_distro
+Codename: focal
+Architectures: amd64
+Components: main
+Description: PPA for OUXT Polaris
