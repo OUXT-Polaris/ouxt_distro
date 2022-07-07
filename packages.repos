@@ -134,7 +134,7 @@ repositories:
   utils/hungarian_solver:
     type: git
     url: https://github.com/OUXT-Polaris/hungarian_solver.git
-    version: d512e4a71063e87e74a8f90d17438876b81cd183
+    version: 9caa2681a25991f25bb1de837f4280903c2e10f7
   utils/message_synchronizer:
     type: git
     url: https://github.com/OUXT-Polaris/message_synchronizer.git
