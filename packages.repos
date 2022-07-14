@@ -34,7 +34,7 @@ repositories:
   drivers/perception_camera_driver:
     type: git
     url: https://github.com/OUXT-Polaris/perception_camera_driver.git
-    version: 0ce711ee2b60a665fd9ae8c62cf9fb6c0ef65123
+    version: 9aaca5775c199d0677e73d93a22a0561a6d5ed22
   drivers/playstation_controller_drivers:
     type: git
     url: https://github.com/OUXT-Polaris/playstation_controller_drivers
