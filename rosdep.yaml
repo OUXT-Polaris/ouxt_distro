@@ -223,6 +223,11 @@ perception_msgs:
   - ros-galactic-perception-msgs
   - ros-foxy-perception_msgs
   - ros-dashing-perception_msgs
+perception_server:
+  ubuntu:
+  - ros-galactic-perception-server
+  - ros-foxy-perception_server
+  - ros-dashing-perception_server
 playstation_controller_drivers:
   ubuntu:
   - ros-galactic-playstation-controller-drivers
