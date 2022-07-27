@@ -208,6 +208,11 @@ pcl_apps_msgs:
   - ros-galactic-pcl-apps-msgs
   - ros-foxy-pcl_apps_msgs
   - ros-dashing-pcl_apps_msgs
+perception:
+  ubuntu:
+  - ros-galactic-perception
+  - ros-foxy-perception
+  - ros-dashing-perception
 perception_bringup:
   ubuntu:
   - ros-galactic-perception-bringup
@@ -223,11 +228,6 @@ perception_msgs:
   - ros-galactic-perception-msgs
   - ros-foxy-perception_msgs
   - ros-dashing-perception_msgs
-perception_server:
-  ubuntu:
-  - ros-galactic-perception-server
-  - ros-foxy-perception_server
-  - ros-dashing-perception_server
 playstation_controller_drivers:
   ubuntu:
   - ros-galactic-playstation-controller-drivers
