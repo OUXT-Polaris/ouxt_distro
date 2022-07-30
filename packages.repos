@@ -86,11 +86,11 @@ repositories:
   perception/perception_msgs:
     type: git
     url: https://github.com/OUXT-Polaris/perception_msgs.git
-    version: 9ba5af58f13352683c70e67a4638641be58a0f13
+    version: 5fba3a4e7bedb0e14eea468ac9cbfa79de8d2c16
   perception/perception_server:
     type: git
     url: https://github.com/OUXT-Polaris/perception_server.git
-    version: 1112b3bf6fac5ce4efc35e16b1b4c6266de9f219
+    version: 0a7edcafa25e017558cdd861fae3a9c4b920e8b4
   perception/robotx_costmap_calculator:
     type: git
     url: https://github.com/OUXT-Polaris/robotx_costmap_calculator.git
