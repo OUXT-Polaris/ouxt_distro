@@ -78,7 +78,7 @@ repositories:
   perception/pcl_apps:
     type: git
     url: https://github.com/OUXT-Polaris/pcl_apps.git
-    version: 015d71742fc3196bbf35ba8554829b288f43116a
+    version: 7d56a0e130dc1e196986a5a232cbd4a13ff2b494
   perception/perception_bringup:
     type: git
     url: https://github.com/OUXT-Polaris/perception_bringup.git
@@ -86,7 +86,7 @@ repositories:
   perception/perception_msgs:
     type: git
     url: https://github.com/OUXT-Polaris/perception_msgs.git
-    version: 5fba3a4e7bedb0e14eea468ac9cbfa79de8d2c16
+    version: f3e7977d16a0e5d05c1dd49fb3a873715cb8fea1
   perception/perception_server:
     type: git
     url: https://github.com/OUXT-Polaris/perception_server.git
@@ -118,7 +118,7 @@ repositories:
   utils/boost_geometry_util:
     type: git
     url: https://github.com/OUXT-Polaris/boost_geometry_util.git
-    version: f4335d83f30b9d14ba79cf7391a0cb3c2d263cee
+    version: 9269f9caf4b8bd7c823bf9889ed0a572ae627cef
   utils/data_buffer:
     type: git
     url: https://github.com/OUXT-Polaris/data_buffer.git
