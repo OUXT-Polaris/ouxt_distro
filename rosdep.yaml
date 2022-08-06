@@ -178,6 +178,11 @@ navi_sim:
   - ros-galactic-navi-sim
   - ros-foxy-navi_sim
   - ros-dashing-navi_sim
+ndt_omp:
+  ubuntu:
+  - ros-galactic-ndt-omp
+  - ros-foxy-ndt_omp
+  - ros-dashing-ndt_omp
 nmea_gps_driver:
   ubuntu:
   - ros-galactic-nmea-gps-driver
