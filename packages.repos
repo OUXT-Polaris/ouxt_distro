@@ -75,10 +75,14 @@ repositories:
     type: git
     url: https://github.com/OUXT-Polaris/image_processing_utils.git
     version: fd3e3c4eb8b79c0ecbd3d252a580fb333813c76b
+  perception/ndt_omp:
+    type: git
+    url: https://github.com/tier4/ndt_omp.git
+    version: 7fa5fa727ea2b999da925d6ab7dfa1298af521e4
   perception/pcl_apps:
     type: git
     url: https://github.com/OUXT-Polaris/pcl_apps.git
-    version: 7d56a0e130dc1e196986a5a232cbd4a13ff2b494
+    version: 7ad124c01eae17b2262c14388e802bf228e1dcc6
   perception/perception_bringup:
     type: git
     url: https://github.com/OUXT-Polaris/perception_bringup.git
