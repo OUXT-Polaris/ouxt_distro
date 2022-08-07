@@ -82,7 +82,7 @@ repositories:
   perception/pcl_apps:
     type: git
     url: https://github.com/OUXT-Polaris/pcl_apps.git
-    version: 7ad124c01eae17b2262c14388e802bf228e1dcc6
+    version: 720d6cfc3562137a353f5d67f3e0f42b122025ed
   perception/perception_bringup:
     type: git
     url: https://github.com/OUXT-Polaris/perception_bringup.git
