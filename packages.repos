@@ -86,7 +86,7 @@ repositories:
   perception/perception_bringup:
     type: git
     url: https://github.com/OUXT-Polaris/perception_bringup.git
-    version: 9bf3c90a5ce5569c44394a973fe98567c8f7bcb6
+    version: d3ab66a3bb5bb32b43ca410413c0d21d8587c559
   perception/perception_msgs:
     type: git
     url: https://github.com/OUXT-Polaris/perception_msgs.git
@@ -110,7 +110,7 @@ repositories:
   planning/robotx_behavior_tree:
     type: git
     url: https://github.com/OUXT-Polaris/robotx_behavior_tree.git
-    version: d2b509d38e4b655f8be410d1643fdd4ba255844d
+    version: 667b1ac1b99aa50074543c4ad5503fcfeff98d71
   simulation/navi_sim:
     type: git
     url: https://github.com/OUXT-Polaris/navi_sim.git
