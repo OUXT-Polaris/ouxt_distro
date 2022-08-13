@@ -98,7 +98,7 @@ repositories:
   perception/robotx_costmap_calculator:
     type: git
     url: https://github.com/OUXT-Polaris/robotx_costmap_calculator.git
-    version: cc48595e8860d96edbad154e0f3e65824a51c084
+    version: b83ae7d56f4df7071d4f588d196300a2304c2344
   perception/scan_segmentation:
     type: git
     url: https://github.com/OUXT-Polaris/scan_segmentation.git
@@ -106,7 +106,7 @@ repositories:
   planning/hermite_path_planner:
     type: git
     url: https://github.com/OUXT-Polaris/hermite_path_planner.git
-    version: a155f4bdc106e353bc4e2e1b34d5c6b6b42be2d5
+    version: 736979fa2c24c84f731426455c4178da6c47884b
   planning/robotx_behavior_tree:
     type: git
     url: https://github.com/OUXT-Polaris/robotx_behavior_tree.git
