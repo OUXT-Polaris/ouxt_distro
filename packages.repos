@@ -86,7 +86,7 @@ repositories:
   perception/perception_bringup:
     type: git
     url: https://github.com/OUXT-Polaris/perception_bringup.git
-    version: d3ab66a3bb5bb32b43ca410413c0d21d8587c559
+    version: dbacd7ea493cab5e1ec5f06e9f50f3d562a1576b
   perception/perception_msgs:
     type: git
     url: https://github.com/OUXT-Polaris/perception_msgs.git
