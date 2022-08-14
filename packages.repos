@@ -98,7 +98,7 @@ repositories:
   perception/robotx_costmap_calculator:
     type: git
     url: https://github.com/OUXT-Polaris/robotx_costmap_calculator.git
-    version: b83ae7d56f4df7071d4f588d196300a2304c2344
+    version: c3fa13930aa3a11a6dbfc8190d91363f8068edb7
   perception/scan_segmentation:
     type: git
     url: https://github.com/OUXT-Polaris/scan_segmentation.git
@@ -110,7 +110,7 @@ repositories:
   planning/robotx_behavior_tree:
     type: git
     url: https://github.com/OUXT-Polaris/robotx_behavior_tree.git
-    version: 667b1ac1b99aa50074543c4ad5503fcfeff98d71
+    version: bfa11df815ea0089c0ffe63b1034305ab31aa605
   simulation/navi_sim:
     type: git
     url: https://github.com/OUXT-Polaris/navi_sim.git
@@ -126,7 +126,7 @@ repositories:
   utils/data_buffer:
     type: git
     url: https://github.com/OUXT-Polaris/data_buffer.git
-    version: 21e74f12cb81a7200b9397896d54edb885b3facd
+    version: 8a91898ddccba54354f98e1297702dd74ffab0b9
   utils/geometry_msgs_data_buffer:
     type: git
     url: https://github.com/OUXT-Polaris/geometry_msgs_data_buffer.git
