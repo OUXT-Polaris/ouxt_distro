@@ -8,6 +8,31 @@ boost_geometry_util:
   - ros-galactic-boost-geometry-util
   - ros-foxy-boost_geometry_util
   - ros-dashing-boost_geometry_util
+copto_mix:
+  ubuntu:
+  - ros-galactic-copto-mix
+  - ros-foxy-copto_mix
+  - ros-dashing-copto_mix
+copto_pid:
+  ubuntu:
+  - ros-galactic-copto-pid
+  - ros-foxy-copto_pid
+  - ros-dashing-copto_pid
+copto_quat:
+  ubuntu:
+  - ros-galactic-copto-quat
+  - ros-foxy-copto_quat
+  - ros-dashing-copto_quat
+copto_ros:
+  ubuntu:
+  - ros-galactic-copto-ros
+  - ros-foxy-copto_ros
+  - ros-dashing-copto_ros
+copto_run:
+  ubuntu:
+  - ros-galactic-copto-run
+  - ros-foxy-copto_run
+  - ros-dashing-copto_run
 data_buffer:
   ubuntu:
   - ros-galactic-data-buffer
