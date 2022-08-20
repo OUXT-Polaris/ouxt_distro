@@ -110,11 +110,11 @@ repositories:
   planning/robotx_behavior_tree:
     type: git
     url: https://github.com/OUXT-Polaris/robotx_behavior_tree.git
-    version: bfa11df815ea0089c0ffe63b1034305ab31aa605
+    version: 733f96b0b1162f97476af9397ab6c190f8bea06c
   simulation/navi_sim:
     type: git
     url: https://github.com/OUXT-Polaris/navi_sim.git
-    version: 53b2c1911d4f33ea4127e4fcf7e2a9917d002e16
+    version: 939cbabffd82355c1d96ec1815d375d908812f7f
   simulation/unisim_ros2_control:
     type: git
     url: https://github.com/OUXT-Polaris/unisim_ros2_control.git
