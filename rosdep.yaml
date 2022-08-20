@@ -283,6 +283,11 @@ robotx_msgs:
   - ros-galactic-robotx-msgs
   - ros-foxy-robotx_msgs
   - ros-dashing-robotx_msgs
+robotx_planner_bringup:
+  ubuntu:
+  - ros-galactic-robotx-planner-bringup
+  - ros-foxy-robotx_planner_bringup
+  - ros-dashing-robotx_planner_bringup
 rosboard:
   ubuntu:
   - ros-galactic-rosboard

@@ -111,6 +111,10 @@ repositories:
     type: git
     url: https://github.com/OUXT-Polaris/robotx_behavior_tree.git
     version: 733f96b0b1162f97476af9397ab6c190f8bea06c
+  planning/robotx_planner_bringup:
+    type: git
+    url: https://github.com/OUXT-Polaris/robotx_planner_bringup.git
+    version: 827b796135a9367545e8044b3aba4bc1a6c51ce6
   simulation/navi_sim:
     type: git
     url: https://github.com/OUXT-Polaris/navi_sim.git
