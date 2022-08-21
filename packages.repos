@@ -18,7 +18,7 @@ repositories:
   drivers/copto_ros:
     type: git
     url: https://github.com/OUXT-Polaris/copto_ros.git
-    version: d71837214541c9a237ecbb7cd64c9da823405368
+    version: ea3cf80d5287b34fc9997c495ce58cd5e5e9496d
   drivers/dynamixel_hardware_interface:
     type: git
     url: https://github.com/OUXT-Polaris/dynamixel_hardware_interface.git
@@ -122,7 +122,7 @@ repositories:
   simulation/navi_sim:
     type: git
     url: https://github.com/OUXT-Polaris/navi_sim.git
-    version: f585d6a50a2d15049a99a2f54d437943e7a346cf
+    version: 909fc16932d5cce1d484adc468475a80ddc388c9
   simulation/unisim_ros2_control:
     type: git
     url: https://github.com/OUXT-Polaris/unisim_ros2_control.git
