@@ -50,11 +50,7 @@ repositories:
   drivers/ros_kvh1750:
     type: git
     url: https://github.com/OUXT-Polaris/ros_kvh1750.git
-    version: b36039c41b7df65eb6071a0bf81342454b66fb5d
-  drivers/serial:
-    type: git
-    url: https://github.com/OUXT-Polaris/serial.git
-    version: a121803d86a94c66fbafe853278f990e54f9e54d
+    version: cc4b83452912e7d12962c40feb57f828a5b2003b
   drivers/tcp_sender:
     type: git
     url: https://github.com/OUXT-Polaris/tcp_sender.git
