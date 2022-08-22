@@ -313,6 +313,11 @@ robotx_planner_bringup:
   - ros-galactic-robotx-planner-bringup
   - ros-foxy-robotx_planner_bringup
   - ros-dashing-robotx_planner_bringup
+ros_kvh1750:
+  ubuntu:
+  - ros-galactic-ros-kvh1750
+  - ros-foxy-ros_kvh1750
+  - ros-dashing-ros_kvh1750
 rosboard:
   ubuntu:
   - ros-galactic-rosboard
@@ -333,6 +338,11 @@ sdl2_vendor2:
   - ros-galactic-sdl2-vendor2
   - ros-foxy-sdl2_vendor2
   - ros-dashing-sdl2_vendor2
+serial:
+  ubuntu:
+  - ros-galactic-serial
+  - ros-foxy-serial
+  - ros-dashing-serial
 tcp_sender:
   ubuntu:
   - ros-galactic-tcp-sender

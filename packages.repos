@@ -47,6 +47,14 @@ repositories:
     type: git
     url: https://github.com/OUXT-Polaris/realsense_hardware_interface.git
     version: c903f28d5ea8548df0fe3e4207c428643e10f78b
+  drivers/ros_kvh1750:
+    type: git
+    url: https://github.com/OUXT-Polaris/ros_kvh1750.git
+    version: 581aa4e85bb4ade449d26c686bafc6978f49186b
+  drivers/serial:
+    type: git
+    url: https://github.com/OUXT-Polaris/serial.git
+    version: eebc559cbcde3b113deb6b38175251da174ffda3
   drivers/tcp_sender:
     type: git
     url: https://github.com/OUXT-Polaris/tcp_sender.git
