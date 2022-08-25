@@ -198,6 +198,11 @@ miniv_description:
   - ros-galactic-miniv-description
   - ros-foxy-miniv_description
   - ros-dashing-miniv_description
+mock_server:
+  ubuntu:
+  - ros-galactic-mock-server
+  - ros-foxy-mock_server
+  - ros-dashing-mock_server
 navi_sim:
   ubuntu:
   - ros-galactic-navi-sim
