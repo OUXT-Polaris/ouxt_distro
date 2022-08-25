@@ -162,7 +162,7 @@ repositories:
   utils/robotx_communication:
     type: git
     url: https://github.com/OUXT-Polaris/robotx_communication.git
-    version: f904b885a2fbf5b48ffe764215e3bfed39d774f0
+    version: 5c67ce65ee1b3796455c24956983d97a4a3dcced
   utils/rosboard:
     type: git
     url: https://github.com/OUXT-Polaris/rosboard.git
