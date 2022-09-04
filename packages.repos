@@ -98,7 +98,7 @@ repositories:
   perception/perception_msgs:
     type: git
     url: https://github.com/OUXT-Polaris/perception_msgs.git
-    version: 736c53d51b23398cfb729bb7720dc92cf2ca535b
+    version: 8b12e4a8bd2a21961efae632bd62569062d26acc
   perception/perception_server:
     type: git
     url: https://github.com/OUXT-Polaris/perception_server.git
@@ -126,7 +126,7 @@ repositories:
   simulation/navi_sim:
     type: git
     url: https://github.com/OUXT-Polaris/navi_sim.git
-    version: fc24d55cb44effa1389ed08598ab892f2d5920d3
+    version: a51c9d52dd0130dcc32e2a944e1f480af3855c19
   simulation/unisim_ros2_control:
     type: git
     url: https://github.com/OUXT-Polaris/unisim_ros2_control.git
