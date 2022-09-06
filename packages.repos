@@ -114,11 +114,11 @@ repositories:
   planning/hermite_path_planner:
     type: git
     url: https://github.com/OUXT-Polaris/hermite_path_planner.git
-    version: d5fc4d06a54bc4b2fe282a9c1cc38b49c71bb76e
+    version: 5366c110d74b16cb45a960031d937587c0d41ced
   planning/robotx_behavior_tree:
     type: git
     url: https://github.com/OUXT-Polaris/robotx_behavior_tree.git
-    version: d4ddbbadfabc947a2ec3dfce1c4414b0f436f2dc
+    version: ed98e90355ac5e31fe194e9498cfea4cd08a95c8
   planning/robotx_planner_bringup:
     type: git
     url: https://github.com/OUXT-Polaris/robotx_planner_bringup.git
