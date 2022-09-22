@@ -90,15 +90,15 @@ repositories:
   perception/pcl_apps:
     type: git
     url: https://github.com/OUXT-Polaris/pcl_apps.git
-    version: 720d6cfc3562137a353f5d67f3e0f42b122025ed
+    version: eea4268b5cec3706534c937995bca2a0a008ac00
   perception/perception_bringup:
     type: git
     url: https://github.com/OUXT-Polaris/perception_bringup.git
-    version: 061b114a526ea1ff78a148a86f53bd941f604c28
+    version: 0fea205ba6fabb1b7458f1140838c90b4cb4457a
   perception/perception_msgs:
     type: git
     url: https://github.com/OUXT-Polaris/perception_msgs.git
-    version: 8b12e4a8bd2a21961efae632bd62569062d26acc
+    version: e6b474dcf031246a63e5ce1b8e83f4493cbc5bc6
   perception/perception_server:
     type: git
     url: https://github.com/OUXT-Polaris/perception_server.git
@@ -114,11 +114,11 @@ repositories:
   planning/hermite_path_planner:
     type: git
     url: https://github.com/OUXT-Polaris/hermite_path_planner.git
-    version: 5366c110d74b16cb45a960031d937587c0d41ced
+    version: 7649ed227d423cf65332cdc074f68ab219328c59
   planning/robotx_behavior_tree:
     type: git
     url: https://github.com/OUXT-Polaris/robotx_behavior_tree.git
-    version: ed98e90355ac5e31fe194e9498cfea4cd08a95c8
+    version: 86d5b4707bb53520d31b09866e615af544fb369b
   planning/robotx_planner_bringup:
     type: git
     url: https://github.com/OUXT-Polaris/robotx_planner_bringup.git
@@ -126,7 +126,7 @@ repositories:
   simulation/navi_sim:
     type: git
     url: https://github.com/OUXT-Polaris/navi_sim.git
-    version: a51c9d52dd0130dcc32e2a944e1f480af3855c19
+    version: d7994d0a6f3f724bf63a90ae8a106486aac27abe
   simulation/unisim_ros2_control:
     type: git
     url: https://github.com/OUXT-Polaris/unisim_ros2_control.git
@@ -150,7 +150,7 @@ repositories:
   utils/groot:
     type: git
     url: https://github.com/BehaviorTree/Groot.git
-    version: 502c37ecd7e3a17293147faf8547625f003764ac
+    version: eb0a1f2c21f7ee95bc9c12da0611aba73479b2fd
   utils/hungarian_solver:
     type: git
     url: https://github.com/OUXT-Polaris/hungarian_solver.git
