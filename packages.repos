@@ -83,6 +83,10 @@ repositories:
     type: git
     url: https://github.com/OUXT-Polaris/image_processing_utils.git
     version: fd3e3c4eb8b79c0ecbd3d252a580fb333813c76b
+  perception/lidar_camera_fusion:
+    type: git
+    url: https://github.com/OUXT-Polaris/lidar_camera_fusion.git
+    version: 128111e4ba026285787b889e18913d3d2292f202
   perception/ndt_omp:
     type: git
     url: https://github.com/tier4/ndt_omp.git

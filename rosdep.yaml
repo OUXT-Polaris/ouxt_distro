@@ -178,6 +178,11 @@ joy_to_twist:
   - ros-galactic-joy-to-twist
   - ros-foxy-joy_to_twist
   - ros-dashing-joy_to_twist
+lidar_camera_fusion:
+  ubuntu:
+  - ros-galactic-lidar-camera-fusion
+  - ros-foxy-lidar_camera_fusion
+  - ros-dashing-lidar_camera_fusion
 local_waypoint_server:
   ubuntu:
   - ros-galactic-local-waypoint-server
