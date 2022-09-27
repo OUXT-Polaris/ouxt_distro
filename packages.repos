@@ -6,7 +6,7 @@ repositories:
   control/usv_controller:
     type: git
     url: https://github.com/OUXT-Polaris/usv_controller.git
-    version: d9c8e69a458e4508952c8fd24e40d0d4d883638a
+    version: 0b0390e9b5727b193639fedaafa4c34d5d26727e
   description/miniv_description:
     type: git
     url: https://github.com/OUXT-Polaris/miniv_description.git
@@ -14,7 +14,7 @@ repositories:
   description/wamv_description:
     type: git
     url: https://github.com/OUXT-Polaris/wamv_description.git
-    version: 1d459010c7a04774426f112aec1e86e1e56436af
+    version: 863f3f56f7e1fb97a94c64ee5cf665d0b53df297
   drivers/copto_ros:
     type: git
     url: https://github.com/OUXT-Polaris/copto_ros.git
@@ -98,7 +98,7 @@ repositories:
   perception/perception_msgs:
     type: git
     url: https://github.com/OUXT-Polaris/perception_msgs.git
-    version: e6b474dcf031246a63e5ce1b8e83f4493cbc5bc6
+    version: 6fdbf132d31192b2c7e82b861eb871c6e9b5b633
   perception/perception_server:
     type: git
     url: https://github.com/OUXT-Polaris/perception_server.git
