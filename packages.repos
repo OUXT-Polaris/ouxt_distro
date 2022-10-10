@@ -154,7 +154,7 @@ repositories:
   utils/groot:
     type: git
     url: https://github.com/BehaviorTree/Groot.git
-    version: eb0a1f2c21f7ee95bc9c12da0611aba73479b2fd
+    version: 063af796bfeece91564fd49b7bc0a08403ade555
   utils/hungarian_solver:
     type: git
     url: https://github.com/OUXT-Polaris/hungarian_solver.git
