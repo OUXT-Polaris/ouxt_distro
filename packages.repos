@@ -151,10 +151,6 @@ repositories:
     type: git
     url: https://github.com/ANYbotics/grid_map.git
     version: 7afca6c8314bd3016dc974541aecca3ed39ccab0
-  utils/groot:
-    type: git
-    url: https://github.com/BehaviorTree/Groot.git
-    version: 063af796bfeece91564fd49b7bc0a08403ade555
   utils/hungarian_solver:
     type: git
     url: https://github.com/OUXT-Polaris/hungarian_solver.git
