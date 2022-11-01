@@ -143,11 +143,6 @@ grid_map_visualization:
   - ros-galactic-grid-map-visualization
   - ros-foxy-grid_map_visualization
   - ros-dashing-grid_map_visualization
-groot:
-  ubuntu:
-  - ros-galactic-groot
-  - ros-foxy-groot
-  - ros-dashing-groot
 hermite_path_msgs:
   ubuntu:
   - ros-galactic-hermite-path-msgs
