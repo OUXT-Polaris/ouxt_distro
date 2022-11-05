@@ -90,7 +90,7 @@ repositories:
   perception/ndt_omp:
     type: git
     url: https://github.com/tier4/ndt_omp.git
-    version: 7fa5fa727ea2b999da925d6ab7dfa1298af521e4
+    version: b77e6fb47015120dbc7bbb17276ca24a56613f3f
   perception/pcl_apps:
     type: git
     url: https://github.com/OUXT-Polaris/pcl_apps.git
