@@ -130,7 +130,7 @@ repositories:
   simulation/navi_sim:
     type: git
     url: https://github.com/OUXT-Polaris/navi_sim.git
-    version: d7994d0a6f3f724bf63a90ae8a106486aac27abe
+    version: 6fe99964e550ec6376e8a3c4038c368498e5d85c
   simulation/unisim_ros2_control:
     type: git
     url: https://github.com/OUXT-Polaris/unisim_ros2_control.git
