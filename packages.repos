@@ -122,7 +122,7 @@ repositories:
   planning/robotx_behavior_tree:
     type: git
     url: https://github.com/OUXT-Polaris/robotx_behavior_tree.git
-    version: 86d5b4707bb53520d31b09866e615af544fb369b
+    version: b85ac634406ef217a4d260703371f773eaadaa64
   planning/robotx_planner_bringup:
     type: git
     url: https://github.com/OUXT-Polaris/robotx_planner_bringup.git
