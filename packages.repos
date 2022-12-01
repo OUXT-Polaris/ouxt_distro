@@ -18,7 +18,7 @@ repositories:
   drivers/copto_ros:
     type: git
     url: https://github.com/OUXT-Polaris/copto_ros.git
-    version: ea3cf80d5287b34fc9997c495ce58cd5e5e9496d
+    version: f6dc0c174f269aacfacf6eef349f8f71a2b26e68
   drivers/dynamixel_hardware_interface:
     type: git
     url: https://github.com/OUXT-Polaris/dynamixel_hardware_interface.git
@@ -98,7 +98,7 @@ repositories:
   perception/perception_bringup:
     type: git
     url: https://github.com/OUXT-Polaris/perception_bringup.git
-    version: 0fea205ba6fabb1b7458f1140838c90b4cb4457a
+    version: a03a94cdd0c2ebf68e587938154970a92a1e3d16
   perception/perception_msgs:
     type: git
     url: https://github.com/OUXT-Polaris/perception_msgs.git
