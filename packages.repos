@@ -22,7 +22,7 @@ repositories:
   drivers/dynamixel_hardware_interface:
     type: git
     url: https://github.com/OUXT-Polaris/dynamixel_hardware_interface.git
-    version: 419154a11b87b813fd24c67a3397663d07947016
+    version: 9c1a0cfb51156671181ff97c201f630ee6974808
   drivers/miniv_control:
     type: git
     url: https://github.com/OUXT-Polaris/miniv_control.git
@@ -46,7 +46,7 @@ repositories:
   drivers/realsense_hardware_interface:
     type: git
     url: https://github.com/OUXT-Polaris/realsense_hardware_interface.git
-    version: c903f28d5ea8548df0fe3e4207c428643e10f78b
+    version: 1ec03ec9bf0a24dbfdcece747f1ffeee98b36be7
   drivers/ros_kvh1750:
     type: git
     url: https://github.com/OUXT-Polaris/ros_kvh1750.git
@@ -66,11 +66,11 @@ repositories:
   localization/geographic_info:
     type: git
     url: https://github.com/OUXT-Polaris/geographic_info.git
-    version: 81f50056fe912509caf2c41cb87cb71b150ea3a8
+    version: c415944ae3d451901021f7bd5a929a84311fb6a3
   localization/nmea_to_geopose:
     type: git
     url: https://github.com/OUXT-Polaris/nmea_to_geopose.git
-    version: ac427697aabad1e238f0c777393a567d25042a25
+    version: 6a42d814c134f4da68b107e7bd5f6f2f801aecaa
   localization/odom_frame_publisher:
     type: git
     url: https://github.com/OUXT-Polaris/odom_frame_publisher.git
@@ -82,7 +82,7 @@ repositories:
   perception/image_processing_utils:
     type: git
     url: https://github.com/OUXT-Polaris/image_processing_utils.git
-    version: fd3e3c4eb8b79c0ecbd3d252a580fb333813c76b
+    version: 2d832aa169b6fa3cc675670665350259addd63e2
   perception/lidar_camera_fusion:
     type: git
     url: https://github.com/OUXT-Polaris/lidar_camera_fusion.git
