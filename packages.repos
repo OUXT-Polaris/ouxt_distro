@@ -142,7 +142,7 @@ repositories:
   utils/data_buffer:
     type: git
     url: https://github.com/OUXT-Polaris/data_buffer.git
-    version: 8a91898ddccba54354f98e1297702dd74ffab0b9
+    version: 59b47727611fa0e962398d6d7ec22f96030b057a
   utils/geometry_msgs_data_buffer:
     type: git
     url: https://github.com/OUXT-Polaris/geometry_msgs_data_buffer.git
