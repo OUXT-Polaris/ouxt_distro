@@ -42,7 +42,7 @@ repositories:
   drivers/playstation_controller_drivers:
     type: git
     url: https://github.com/OUXT-Polaris/playstation_controller_drivers
-    version: ddb12c31250abb2c9d8957755dcdb79dd0e65e31
+    version: ca391933fb5c0eab5570eaa0e3bece36cf0fe402
   drivers/realsense_hardware_interface:
     type: git
     url: https://github.com/OUXT-Polaris/realsense_hardware_interface.git
@@ -86,7 +86,7 @@ repositories:
   perception/lidar_camera_fusion:
     type: git
     url: https://github.com/OUXT-Polaris/lidar_camera_fusion.git
-    version: 08b7496a86b145ccd364a6a16c8bd6252e21177e
+    version: cc9d91f86c7e2aec6cabfe5aeca8c02f0931515b
   perception/ndt_omp:
     type: git
     url: https://github.com/tier4/ndt_omp.git
