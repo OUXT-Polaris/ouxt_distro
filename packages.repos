@@ -94,7 +94,7 @@ repositories:
   perception/pcl_apps:
     type: git
     url: https://github.com/OUXT-Polaris/pcl_apps.git
-    version: 5f6a527461704c52bb1ad509c6ee72d4af6a9171
+    version: 21e47507d3ffe7b2bedaa816d51e9d1c123bf710
   perception/perception_bringup:
     type: git
     url: https://github.com/OUXT-Polaris/perception_bringup.git
@@ -130,7 +130,7 @@ repositories:
   simulation/navi_sim:
     type: git
     url: https://github.com/OUXT-Polaris/navi_sim.git
-    version: 6fe99964e550ec6376e8a3c4038c368498e5d85c
+    version: 3dd80d71047b437e1285dad18d3d1bd1899984fd
   simulation/unisim_ros2_control:
     type: git
     url: https://github.com/OUXT-Polaris/unisim_ros2_control.git
