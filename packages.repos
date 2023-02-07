@@ -6,7 +6,7 @@ repositories:
   control/usv_controller:
     type: git
     url: https://github.com/OUXT-Polaris/usv_controller.git
-    version: 0b0390e9b5727b193639fedaafa4c34d5d26727e
+    version: c6bb39158f66b224532d3531e6c6684b0efefa7f
   description/miniv_description:
     type: git
     url: https://github.com/OUXT-Polaris/miniv_description.git
@@ -15,18 +15,14 @@ repositories:
     type: git
     url: https://github.com/OUXT-Polaris/wamv_description.git
     version: 863f3f56f7e1fb97a94c64ee5cf665d0b53df297
-  drivers/copto_ros:
-    type: git
-    url: https://github.com/OUXT-Polaris/copto_ros.git
-    version: f6dc0c174f269aacfacf6eef349f8f71a2b26e68
   drivers/dynamixel_hardware_interface:
     type: git
     url: https://github.com/OUXT-Polaris/dynamixel_hardware_interface.git
-    version: 9c1a0cfb51156671181ff97c201f630ee6974808
+    version: b4fcf3a46db2e360b2b28a34c9b72172092bda82
   drivers/miniv_control:
     type: git
     url: https://github.com/OUXT-Polaris/miniv_control.git
-    version: 842730c9398952be6cd052f2d9b5d8fd585827e9
+    version: f687a5b6d8db058a6fc21bc6ae1324f9f841bece
   drivers/nmea_gps_driver:
     type: git
     url: https://github.com/OUXT-Polaris/nmea_gps_driver.git
@@ -34,19 +30,11 @@ repositories:
   drivers/nmea_hardware_interface:
     type: git
     url: https://github.com/OUXT-Polaris/nmea_hardware_interface.git
-    version: af0149785be478244b5c21b6e4264ec9a3bafd2e
-  drivers/perception_camera_driver:
-    type: git
-    url: https://github.com/OUXT-Polaris/perception_camera_driver.git
-    version: 9aaca5775c199d0677e73d93a22a0561a6d5ed22
+    version: 8475ff80f8223141fabf14693e9d01f655ba24a3
   drivers/playstation_controller_drivers:
     type: git
     url: https://github.com/OUXT-Polaris/playstation_controller_drivers
     version: ca391933fb5c0eab5570eaa0e3bece36cf0fe402
-  drivers/realsense_hardware_interface:
-    type: git
-    url: https://github.com/OUXT-Polaris/realsense_hardware_interface.git
-    version: 1ec03ec9bf0a24dbfdcece747f1ffeee98b36be7
   drivers/ros_kvh1750:
     type: git
     url: https://github.com/OUXT-Polaris/ros_kvh1750.git
@@ -58,7 +46,7 @@ repositories:
   drivers/wamv_control:
     type: git
     url: https://github.com/OUXT-Polaris/wamv_control.git
-    version: b2aa6f06836f6aa95e9c953ccfd556b6ed5ae365
+    version: eb54792516e3f0afaf881c6aeb1a0507891fd30a
   localization/geographic_conversion:
     type: git
     url: https://github.com/OUXT-Polaris/geographic_conversion.git
@@ -131,10 +119,6 @@ repositories:
     type: git
     url: https://github.com/OUXT-Polaris/navi_sim.git
     version: 3dd80d71047b437e1285dad18d3d1bd1899984fd
-  simulation/unisim_ros2_control:
-    type: git
-    url: https://github.com/OUXT-Polaris/unisim_ros2_control.git
-    version: dce1aa15250acb5f2f94f93a9c900193ebcfcc99
   utils/boost_geometry_util:
     type: git
     url: https://github.com/OUXT-Polaris/boost_geometry_util.git
@@ -147,14 +131,14 @@ repositories:
     type: git
     url: https://github.com/OUXT-Polaris/geometry_msgs_data_buffer.git
     version: 24575eac09d0f782adeb95cfa0268941aa0abf90
-  utils/grid_map:
-    type: git
-    url: https://github.com/ANYbotics/grid_map.git
-    version: 7afca6c8314bd3016dc974541aecca3ed39ccab0
   utils/hungarian_solver:
     type: git
     url: https://github.com/OUXT-Polaris/hungarian_solver.git
     version: 9caa2681a25991f25bb1de837f4280903c2e10f7
+  utils/lua_vendor:
+    type: git
+    url: https://github.com/OUXT-Polaris/lua_vendor.git
+    version: e0f793a762d586bc35233b8d62520cac63ffa59c
   utils/message_synchronizer:
     type: git
     url: https://github.com/OUXT-Polaris/message_synchronizer.git
@@ -165,8 +149,8 @@ repositories:
     version: 5c67ce65ee1b3796455c24956983d97a4a3dcced
   utils/rosboard:
     type: git
-    url: https://github.com/OUXT-Polaris/rosboard.git
-    version: e85ceb9bd90b483b56cafc52b66289bd638efee3
+    url: https://github.com/dheera/rosboard.git
+    version: 58daea34bfd3a7a0980cb013d5308e1648208395
   utils/rospy2:
     type: git
     url: https://github.com/OUXT-Polaris/rospy2.git
