@@ -74,7 +74,7 @@ repositories:
   perception/lidar_camera_fusion:
     type: git
     url: https://github.com/OUXT-Polaris/lidar_camera_fusion.git
-    version: cc9d91f86c7e2aec6cabfe5aeca8c02f0931515b
+    version: 31099e06f38742aff483c030ea6399acaf88a977
   perception/ndt_omp:
     type: git
     url: https://github.com/tier4/ndt_omp.git
@@ -142,7 +142,7 @@ repositories:
   utils/message_synchronizer:
     type: git
     url: https://github.com/OUXT-Polaris/message_synchronizer.git
-    version: f6f1248b1ccfe5bbd267eb500bef93a4bdb5639c
+    version: d17ef24df415006374465bce32570d53487ae796
   utils/robotx_communication:
     type: git
     url: https://github.com/OUXT-Polaris/robotx_communication.git
