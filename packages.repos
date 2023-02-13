@@ -6,7 +6,7 @@ repositories:
   control/usv_controller:
     type: git
     url: https://github.com/OUXT-Polaris/usv_controller.git
-    version: c6bb39158f66b224532d3531e6c6684b0efefa7f
+    version: 1ec5cecbf33cea58c5db9d5e4f64f7168eb16c4c
   description/miniv_description:
     type: git
     url: https://github.com/OUXT-Polaris/miniv_description.git
