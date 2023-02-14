@@ -54,7 +54,7 @@ repositories:
   localization/geographic_info:
     type: git
     url: https://github.com/OUXT-Polaris/geographic_info.git
-    version: c415944ae3d451901021f7bd5a929a84311fb6a3
+    version: eca53621265d70815b4b437e90c9d84384104129
   localization/nmea_to_geopose:
     type: git
     url: https://github.com/OUXT-Polaris/nmea_to_geopose.git
@@ -126,11 +126,7 @@ repositories:
   utils/data_buffer:
     type: git
     url: https://github.com/OUXT-Polaris/data_buffer.git
-    version: 9a753e41bd3e3b2611e061e5b32f23a6cb209373
-  utils/geometry_msgs_data_buffer:
-    type: git
-    url: https://github.com/OUXT-Polaris/geometry_msgs_data_buffer.git
-    version: 24575eac09d0f782adeb95cfa0268941aa0abf90
+    version: 05175fe2c23c7cdf958f9c96f6ddc39246713a8f
   utils/hungarian_solver:
     type: git
     url: https://github.com/OUXT-Polaris/hungarian_solver.git
