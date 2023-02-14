@@ -2,11 +2,11 @@ repositories:
   control/joy_to_twist:
     type: git
     url: https://github.com/OUXT-Polaris/joy_to_twist.git
-    version: c73d7d6f1b8dd0a5b13553bd4433b2ec7d741bae
+    version: 8f5e2c61891873eceab24bc68ad8e86b90e81b21
   control/usv_controller:
     type: git
     url: https://github.com/OUXT-Polaris/usv_controller.git
-    version: 37f1ab80ae10a5d86b1ff31b6befa541009c54af
+    version: 3e07ba35722d9138814dbde44aed962b2dc756fa
   description/miniv_description:
     type: git
     url: https://github.com/OUXT-Polaris/miniv_description.git
@@ -18,11 +18,11 @@ repositories:
   drivers/dynamixel_hardware_interface:
     type: git
     url: https://github.com/OUXT-Polaris/dynamixel_hardware_interface.git
-    version: ce36b0dfacbabf764dde48759e9e86f26d484545
+    version: 0452d10c3b545f61eb895195992636a40ca89778
   drivers/miniv_control:
     type: git
     url: https://github.com/OUXT-Polaris/miniv_control.git
-    version: 763bb15f594d9aabd9a77b87e62801f12b7c3ea4
+    version: 8430e915bd980376305f771be35b54a3a82a5562
   drivers/nmea_gps_driver:
     type: git
     url: https://github.com/OUXT-Polaris/nmea_gps_driver.git
@@ -46,11 +46,11 @@ repositories:
   drivers/wamv_control:
     type: git
     url: https://github.com/OUXT-Polaris/wamv_control.git
-    version: 856b68733dc123b175e4493ca9e7e6ba04e4e34f
+    version: 18bceff1b676e47427c849e4acd91dfd6c5307d8
   localization/geographic_conversion:
     type: git
     url: https://github.com/OUXT-Polaris/geographic_conversion.git
-    version: 644ba785ecade500eb7b49b1798877ab8000d53a
+    version: 72969f74eb6d33af7d5b2d95fa9121b0008d0771
   localization/geographic_info:
     type: git
     url: https://github.com/OUXT-Polaris/geographic_info.git
@@ -70,7 +70,7 @@ repositories:
   perception/image_processing_utils:
     type: git
     url: https://github.com/OUXT-Polaris/image_processing_utils.git
-    version: 86c364751f91c0fc7fa0379579e80ce50bb9e231
+    version: 1edb84bf328db19ee1184776cd6126b7f3bb700e
   perception/lidar_camera_fusion:
     type: git
     url: https://github.com/OUXT-Polaris/lidar_camera_fusion.git
@@ -126,7 +126,7 @@ repositories:
   utils/data_buffer:
     type: git
     url: https://github.com/OUXT-Polaris/data_buffer.git
-    version: 05175fe2c23c7cdf958f9c96f6ddc39246713a8f
+    version: 2c78f1cb9ac6437c2fcd8112f3a42107e7e21c14
   utils/hungarian_solver:
     type: git
     url: https://github.com/OUXT-Polaris/hungarian_solver.git
@@ -134,7 +134,7 @@ repositories:
   utils/lua_vendor:
     type: git
     url: https://github.com/OUXT-Polaris/lua_vendor.git
-    version: 192a6ef7a2ed0f32beb209ffb20e9c404876e3e1
+    version: daab8a719e4e9001d601bf68d6920b8e551a4079
   utils/message_synchronizer:
     type: git
     url: https://github.com/OUXT-Polaris/message_synchronizer.git
