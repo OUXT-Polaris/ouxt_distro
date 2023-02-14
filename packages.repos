@@ -6,7 +6,7 @@ repositories:
   control/usv_controller:
     type: git
     url: https://github.com/OUXT-Polaris/usv_controller.git
-    version: 1ec5cecbf33cea58c5db9d5e4f64f7168eb16c4c
+    version: 06a8c8cf15572dd457d3fd1696cadb395dec215d
   description/miniv_description:
     type: git
     url: https://github.com/OUXT-Polaris/miniv_description.git
@@ -70,7 +70,7 @@ repositories:
   perception/image_processing_utils:
     type: git
     url: https://github.com/OUXT-Polaris/image_processing_utils.git
-    version: 2d832aa169b6fa3cc675670665350259addd63e2
+    version: 86c364751f91c0fc7fa0379579e80ce50bb9e231
   perception/lidar_camera_fusion:
     type: git
     url: https://github.com/OUXT-Polaris/lidar_camera_fusion.git
@@ -102,7 +102,7 @@ repositories:
   perception/scan_segmentation:
     type: git
     url: https://github.com/OUXT-Polaris/scan_segmentation.git
-    version: 1327a54ab14cc6f5bd8b5aea462714062134c458
+    version: 77d0d9ca23dbb34cc8adea78633012fec2419c1c
   planning/hermite_path_planner:
     type: git
     url: https://github.com/OUXT-Polaris/hermite_path_planner.git
@@ -126,7 +126,7 @@ repositories:
   utils/data_buffer:
     type: git
     url: https://github.com/OUXT-Polaris/data_buffer.git
-    version: 59b47727611fa0e962398d6d7ec22f96030b057a
+    version: 9a753e41bd3e3b2611e061e5b32f23a6cb209373
   utils/geometry_msgs_data_buffer:
     type: git
     url: https://github.com/OUXT-Polaris/geometry_msgs_data_buffer.git
@@ -142,7 +142,7 @@ repositories:
   utils/message_synchronizer:
     type: git
     url: https://github.com/OUXT-Polaris/message_synchronizer.git
-    version: d17ef24df415006374465bce32570d53487ae796
+    version: 7d086cc7d7951c0562c116554673d7a23cdb67e2
   utils/robotx_communication:
     type: git
     url: https://github.com/OUXT-Polaris/robotx_communication.git
