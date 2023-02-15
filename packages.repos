@@ -74,7 +74,7 @@ repositories:
   perception/lidar_camera_fusion:
     type: git
     url: https://github.com/OUXT-Polaris/lidar_camera_fusion.git
-    version: 31099e06f38742aff483c030ea6399acaf88a977
+    version: 9c59736a75653e66e2035b25bb1987a6cfabfd53
   perception/ndt_omp:
     type: git
     url: https://github.com/tier4/ndt_omp.git
@@ -106,7 +106,7 @@ repositories:
   planning/hermite_path_planner:
     type: git
     url: https://github.com/OUXT-Polaris/hermite_path_planner.git
-    version: aa8663d67ad042b85f907416bb242b8630746ee0
+    version: f21258c7dc6fdbbf25c36af98cece00b89660fe1
   planning/robotx_behavior_tree:
     type: git
     url: https://github.com/OUXT-Polaris/robotx_behavior_tree.git
