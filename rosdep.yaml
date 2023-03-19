@@ -218,16 +218,6 @@ ros_kvh1750:
   - ros-galactic-ros-kvh1750
   - ros-foxy-ros_kvh1750
   - ros-dashing-ros_kvh1750
-rosboard:
-  ubuntu:
-  - ros-galactic-rosboard
-  - ros-foxy-rosboard
-  - ros-dashing-rosboard
-rospy2:
-  ubuntu:
-  - ros-galactic-rospy2
-  - ros-foxy-rospy2
-  - ros-dashing-rospy2
 scan_segmentation:
   ubuntu:
   - ros-galactic-scan-segmentation

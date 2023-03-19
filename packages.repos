@@ -6,7 +6,7 @@ repositories:
   control/usv_controller:
     type: git
     url: https://github.com/OUXT-Polaris/usv_controller.git
-    version: 3e07ba35722d9138814dbde44aed962b2dc756fa
+    version: 4327e2f28a5e940e6e50d71c56be1b1471cfc133
   description/miniv_description:
     type: git
     url: https://github.com/OUXT-Polaris/miniv_description.git
@@ -14,11 +14,11 @@ repositories:
   description/wamv_description:
     type: git
     url: https://github.com/OUXT-Polaris/wamv_description.git
-    version: 863f3f56f7e1fb97a94c64ee5cf665d0b53df297
+    version: 6ea9c72c6c6caa8ee160b8725b8ffa8aab189d93
   drivers/dynamixel_hardware_interface:
     type: git
     url: https://github.com/OUXT-Polaris/dynamixel_hardware_interface.git
-    version: 0452d10c3b545f61eb895195992636a40ca89778
+    version: c0d0eca629cb58740812bd478956f345e1d009a1
   drivers/miniv_control:
     type: git
     url: https://github.com/OUXT-Polaris/miniv_control.git
@@ -82,11 +82,11 @@ repositories:
   perception/pcl_apps:
     type: git
     url: https://github.com/OUXT-Polaris/pcl_apps.git
-    version: 485dcbbeb92aefbf0d2431a4888147fdd59c5990
+    version: 5fcf08966d72d9f051f103dc995f79e0962864d8
   perception/perception_bringup:
     type: git
     url: https://github.com/OUXT-Polaris/perception_bringup.git
-    version: 280362ace72acbb829ecfca58ada5df203319290
+    version: fac26e28902f6d6d8189af25cfe19dc2085e9fa5
   perception/perception_msgs:
     type: git
     url: https://github.com/OUXT-Polaris/perception_msgs.git
@@ -98,7 +98,7 @@ repositories:
   perception/robotx_costmap_calculator:
     type: git
     url: https://github.com/OUXT-Polaris/robotx_costmap_calculator.git
-    version: 4778e4d21e41bd7bba7a0578b0b91aaf884c32b7
+    version: 8b91221aa8d6276c5b4ac8a34d9b9a3873aee3c1
   perception/scan_segmentation:
     type: git
     url: https://github.com/OUXT-Polaris/scan_segmentation.git
@@ -110,7 +110,7 @@ repositories:
   planning/robotx_behavior_tree:
     type: git
     url: https://github.com/OUXT-Polaris/robotx_behavior_tree.git
-    version: fa10d6bf433a59682bf57aeda95b95fe0f3996f8
+    version: ddbf512fbd2ef7163e73438c1dcbe1c61ebbdf4d
   planning/robotx_planner_bringup:
     type: git
     url: https://github.com/OUXT-Polaris/robotx_planner_bringup.git
@@ -143,11 +143,3 @@ repositories:
     type: git
     url: https://github.com/OUXT-Polaris/robotx_communication.git
     version: a511c79fe38d5b3d703e1a27ac3b87032e1a3d76
-  utils/rosboard:
-    type: git
-    url: https://github.com/dheera/rosboard.git
-    version: 58daea34bfd3a7a0980cb013d5308e1648208395
-  utils/rospy2:
-    type: git
-    url: https://github.com/OUXT-Polaris/rospy2.git
-    version: 19e03f62a78c3fcbd61b40dd8ff5c5fbcf087054
