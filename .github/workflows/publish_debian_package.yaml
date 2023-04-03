@@ -1,0 +1,73 @@
+name: publish_debian_package
+on:
+  schedule:
+  - cron: 0 0 * * *
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        rosdistro: [galactic]
+        package:
+          - [OUXT-Polaris, ouxt_common]
+    container: wamvtan/debian_package_builder:${{ matrix.rosdistro }}
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          path: ouxt_distro
+      - uses: actions/checkout@v2
+        with:
+          repository: ${{ matrix.package[0] }}/${{ matrix.package[1] }}
+          path: ${{ matrix.package[1] }}
+      - name: update rosdep list
+        run: echo yaml file://$GITHUB_WORKSPACE/ouxt_distro/rosdep.yaml >> /etc/ros/rosdep/sources.list.d/10-local.list
+      - name: rosdep update and apt update
+        run: rosdep update && apt update
+      - name: install depends
+        run: rosdep install -iry --from-paths ${{ matrix.package[1] }} --ignore-src --rosdistro=${{ matrix.rosdistro }}
+      - name: bloom generate
+        run: colcon list -t -p | xargs -L 1 bash -c 'cd "$0" && bloom-generate rosdebian --ros-distro ${{ matrix.rosdistro }}'
+      - name: generate debian package
+        run: colcon list -t -p | xargs -L 1 bash -c 'cd "$0" && fakeroot debian/rules binary'
+      - uses: actions/upload-artifact@v3
+        with:
+          name: packages
+          path: ${{ matrix.package[1] }}/*.deb
+  get_package_lists:
+    runs-on: ubuntu-latest
+    needs: generate
+    outputs:
+      packages: ${{ steps.get_debian_package_lists.outputs.packages }}
+    steps:
+      - uses: actions/download-artifact@v3
+        with:
+          name: packages
+      - name: get debian package lists
+        id: get_debian_package_lists
+        run: |
+          packages=$(ls | jq -R -s -c 'split("\n")[:-1]')
+          echo "::set-output name=packages::${packages}"
+  publish_to_apt_repo:
+    runs-on: ubuntu-latest
+    needs: get_package_lists
+    strategy:
+      fail-fast: false
+      matrix:
+        package: ${{fromJson(needs.get_package_lists.outputs.packages)}}
+    steps:
+      - uses: actions/download-artifact@v3
+        with:
+          name: packages
+      - uses: jrandiny/apt-repo-action@master
+        with:
+          github_token: ${{ secrets.WAMV_TAN_BOT_SECRET }}
+          repo_supported_arch: amd64
+          repo_supported_version: focal
+          file_target_version: focal
+          file: ${{ matrix.package }}
+          key_passphrase: ${{ secrets.OUXT_APT_REPO_PASSPHRASE }}
+          public_key: ${{ secrets.OUXT_APT_REPO_PUBLIC_KEY }}
+          private_key: ${{ secrets.OUXT_APT_REPO_PRIVATE_KEY }}
