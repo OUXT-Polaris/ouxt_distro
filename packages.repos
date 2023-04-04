@@ -2,11 +2,11 @@ repositories:
   control/joy_to_twist:
     type: git
     url: https://github.com/OUXT-Polaris/joy_to_twist.git
-    version: 8f5e2c61891873eceab24bc68ad8e86b90e81b21
+    version: 080594c2988a983be0c83a9cc932251c84acde42
   control/usv_controller:
     type: git
     url: https://github.com/OUXT-Polaris/usv_controller.git
-    version: 4327e2f28a5e940e6e50d71c56be1b1471cfc133
+    version: 8ee50e379857459668d825c2f1966f4382a7f52e
   description/miniv_description:
     type: git
     url: https://github.com/OUXT-Polaris/miniv_description.git
@@ -14,15 +14,15 @@ repositories:
   description/wamv_description:
     type: git
     url: https://github.com/OUXT-Polaris/wamv_description.git
-    version: 6ea9c72c6c6caa8ee160b8725b8ffa8aab189d93
+    version: 27184d370ae3a7ba2e8a0da9419c95bffa40a816
   drivers/dynamixel_hardware_interface:
     type: git
     url: https://github.com/OUXT-Polaris/dynamixel_hardware_interface.git
-    version: c0d0eca629cb58740812bd478956f345e1d009a1
+    version: 9bc16434f64cb4fdc14471aadceaaf10033cd3ac
   drivers/miniv_control:
     type: git
     url: https://github.com/OUXT-Polaris/miniv_control.git
-    version: 8430e915bd980376305f771be35b54a3a82a5562
+    version: e89fce97984bf5c34c17aab0bfeacad4d348e787
   drivers/nmea_gps_driver:
     type: git
     url: https://github.com/OUXT-Polaris/nmea_gps_driver.git
@@ -46,15 +46,15 @@ repositories:
   drivers/wamv_control:
     type: git
     url: https://github.com/OUXT-Polaris/wamv_control.git
-    version: 18bceff1b676e47427c849e4acd91dfd6c5307d8
+    version: 3f5a1f8baf481b928dd5f498d4ce537c83f440e7
   localization/geographic_conversion:
     type: git
     url: https://github.com/OUXT-Polaris/geographic_conversion.git
-    version: 72969f74eb6d33af7d5b2d95fa9121b0008d0771
+    version: c6e4fed39e1a036363d188f6605f6069561b7bbb
   localization/geographic_info:
     type: git
     url: https://github.com/OUXT-Polaris/geographic_info.git
-    version: 877652e0ab02e151fff96a6ffd5fcf2b22f39be6
+    version: dc6f9eeca1932e790d73b38b3ef016a6640ff150
   localization/nmea_to_geopose:
     type: git
     url: https://github.com/OUXT-Polaris/nmea_to_geopose.git
@@ -70,7 +70,7 @@ repositories:
   perception/image_processing_utils:
     type: git
     url: https://github.com/OUXT-Polaris/image_processing_utils.git
-    version: 1edb84bf328db19ee1184776cd6126b7f3bb700e
+    version: 99aef89ff6c0c9780bf40e802918d9647444cb1e
   perception/lidar_camera_fusion:
     type: git
     url: https://github.com/OUXT-Polaris/lidar_camera_fusion.git
@@ -82,11 +82,11 @@ repositories:
   perception/pcl_apps:
     type: git
     url: https://github.com/OUXT-Polaris/pcl_apps.git
-    version: 5fcf08966d72d9f051f103dc995f79e0962864d8
+    version: 2f6d38e50a805fb45c8c5d3f2e0f5132bdbbf9ea
   perception/perception_bringup:
     type: git
     url: https://github.com/OUXT-Polaris/perception_bringup.git
-    version: fac26e28902f6d6d8189af25cfe19dc2085e9fa5
+    version: 4cda9eccfacef758437b87f9a2bf376e87f3a584
   perception/perception_msgs:
     type: git
     url: https://github.com/OUXT-Polaris/perception_msgs.git
@@ -98,7 +98,7 @@ repositories:
   perception/robotx_costmap_calculator:
     type: git
     url: https://github.com/OUXT-Polaris/robotx_costmap_calculator.git
-    version: 8b91221aa8d6276c5b4ac8a34d9b9a3873aee3c1
+    version: b4c98a8e8b5a752f3a99cd13fdd607379465519d
   perception/scan_segmentation:
     type: git
     url: https://github.com/OUXT-Polaris/scan_segmentation.git
@@ -106,7 +106,7 @@ repositories:
   planning/hermite_path_planner:
     type: git
     url: https://github.com/OUXT-Polaris/hermite_path_planner.git
-    version: f21258c7dc6fdbbf25c36af98cece00b89660fe1
+    version: 4189471b002eea1a5e3d54d552a559d5fc237e57
   planning/robotx_behavior_tree:
     type: git
     url: https://github.com/OUXT-Polaris/robotx_behavior_tree.git
@@ -122,11 +122,11 @@ repositories:
   utils/boost_geometry_util:
     type: git
     url: https://github.com/OUXT-Polaris/boost_geometry_util.git
-    version: 9269f9caf4b8bd7c823bf9889ed0a572ae627cef
+    version: 95855084fe4c3461e1e3e455f68868600bfe3a15
   utils/data_buffer:
     type: git
     url: https://github.com/OUXT-Polaris/data_buffer.git
-    version: 2c78f1cb9ac6437c2fcd8112f3a42107e7e21c14
+    version: f3268e77fc656f01fa1caad96e7b11b5519e5791
   utils/hungarian_solver:
     type: git
     url: https://github.com/OUXT-Polaris/hungarian_solver.git
@@ -134,7 +134,7 @@ repositories:
   utils/lua_vendor:
     type: git
     url: https://github.com/OUXT-Polaris/lua_vendor.git
-    version: daab8a719e4e9001d601bf68d6920b8e551a4079
+    version: 0020d1a6815472baea7a223e7454fde81887f7db
   utils/message_synchronizer:
     type: git
     url: https://github.com/OUXT-Polaris/message_synchronizer.git
